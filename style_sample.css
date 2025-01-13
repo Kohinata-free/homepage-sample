@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+/* 共通部分 */
+html{
+	/* フォントの大きさを指定します */
+	font-size: 100%;
+}
+body{
+	/* 余白を指定します */
+	margin: 0;
+	/* フォントの種類を指定します */
+	font-family: "YuGothic", fantasy, 'Courier New', sans-serif;
+	/* 行間のサイズを指定します */
+	line-height: 1.7;
+	/* 文字色を指定します */
+	color: #432;
+}
+a{
+	/* リンクの装飾を指定します */
+	text-decoration: none;
+}
+img{
+	/* 画像の横幅最大を指定します */
+	max-width: 100%;
+}
+h1{
+	/* 余白を指定します */
+	margin: 0;
+}
+h3{
+	/* フォントサイズを指定します */
+	font-size: 1.5rem;
+	/* 余白を指定します */
+	margin: 5px;
+}
+
+/* header部分 */
+/* ロゴのサイズと余白を調整 */
+.logo{
+	/* ロゴの横幅最小を指定します */
+	min-width: 250px;
+	/* ロゴの横幅を指定します */
+	width: 380px;
+	/* ロゴの余白を指定します */
+	margin: 5px 10px;
+}
+.main-nav{
+	/* メニューを横並びにします */
+	display: flex;
+	/* フォントサイズを指定します */
+	font-size: 2.0rem;
+	/* メニューの余白を指定します */
+	margin: 5px 10px;
+	/* リストスタイルを指定します */
+	list-style: none;
+}
+.main-nav li{
+	/* メニューの余白を指定します */
+	margin-left: 30px;
+}
+.main-nav a{
+	/* メニューの色を指定します */
+	color: #432;
+}
+.main-nav a:hover{
+	/* マウスオーバー時の色を指定します */
+	color: #0bd;
+}
+.page-header{
+	/* ロゴとナビゲーションメニューを横並びにします */
+	display: flex;
+	/* ロゴとナビゲーションを垂直方向中央に配置します */
+	align-items: center;
+	/* ロゴを左端、メニューを右端に配置します */
+	justify-content: space-between;
+}
+
+/* footer部分 */
+footer{
+	/* フッターの背景色を指定します */
+	background-color: #333;
+	/* フッターの文字色を指定します */
+	color: #fff;
+	/* フッターをウィンドウの最下部に固定します */
+	position: fixed;
+	/* 横幅をウィンドウサイズに広げます */
+	width: 100%;
+	/* 高さを指定します */
+	height: 50px;
+	/* フッターをウィンドウの最下部に配置します */
+	bottom: 0;
+	/* フッターの中央に文字を配置します */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* main部分 */
+main{
+	height: 80vh;
+}
+/* 背景の装飾 */
+.background{
+	/* 背景画像を指定します */
+	background-image: url(./images/main_visual.png);
+	/* 画像のサイズを指定します */
+	background-size: cover;
+	/* 画像の位置を指定します */
+	background-position: center top;
+	/* 背景色を指定します */
+	background-color: rgba(255, 255, 255, 0.5); /* 白色の半透明を背景に追加 */
+	/* 背景画像と背景色をブレンドします */
+	background-blend-mode: lighten;
+}
+.home-content{
+	/* 余白を指定します */
+	padding-top: 10%;
+	/* 文字を中央に配置します */
+	text-align: center;
+	/* 文字色を指定します */
+	color: #345;
+	/* 太字にします */
+	font-weight: bold;
+}
+.page-title{
+	/* フォントサイズを指定します */
+	font-size: 3.5rem;
+}
+.home-content p{
+	/* フォントサイズを指定します */
+	font-size: 1.5rem;
+	/* 余白を指定します */
+	margin: 10px;
+}
+
+/* history.html */
+/* 歴史ページのホームコンテンツの装飾 */
+.home-content-history{
+	/* 余白を指定します */
+	padding-top: 0%;
+	/* 文字を中央に配置します */
+	text-align: center;
+	/* 文字色を指定します */
+	color: #345;
+	/* 太字にします */
+	font-weight: bold;
+}
+/* 歴史ページのホームコンテンツのpタグの装飾 */
+.home-content-history p{
+	/* フォントサイズを指定します */
+	font-size: 1.5rem;
+	/* 余白を指定します */
+	margin: 10px;
+}
+/* 歴史ページの各コンテンツグリッドの装飾 */
+.div-grid{
+	/* グリッドのレイアウトを指定します */
+	display: grid;
+	/* グリッドの背景色を指定します */
+	background-color: ivory;
+	/* グリッドの余白を指定します */
+	margin: 50px;
+	/* グリッドの余白を指定します */
+	padding: 20px 5%;
+	/* グリッドの列数と割合いを指定します */
+	grid-template-columns: 6fr 4fr;
+	/* グリッドの行間および列間を指定します */
+	grid-gap: 10px 10px;
+	/* グリッドの高さをコンテンツに合わせて調整します */
+	height: auto;
+	/* 最小の高さを指定することで、コンテンツが収まりきらない場合にスクロール可能にします */
+	min-height: 1100px;
+	/* グリッドのアイテムの高さを自動調整します */
+	align-items: start;
+}
+/* 歴史ページの画像コンテンツのdivタグの装飾 */
+.content-div{
+	/* コンテンツを横並びにします */
+	display: flex;
+	/* コンテンツの横位置を中央にします */
+	justify-content: center;
+}
+/* 歴史ページの画像コンテンツのimgタグの装飾 */
+.content-image{
+	/* 画像の横幅最大を指定します */
+	max-width: 100%;
+	/* 画像の高さを自動調整します */
+	height: auto;
+}
+/* 歴史ページの説明コンテンツのpタグの装飾 */
+.div-grid p{
+	/* フォントサイズを指定します */
+	font-size: 1.2rem;
+}

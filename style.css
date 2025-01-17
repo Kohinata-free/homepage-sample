@@ -1,0 +1,222 @@
+@charset "UTF-8";
+
+p {
+	/* 表6-2-1 ①font-size */
+	/* font-size: 30px; */
+	/* font-size: 3rem; */
+	/* font-size: 50%; */
+	/* font-size: xx-small; */
+	/* font-size: x-small; */
+	/* font-size: small; */
+	/* font-size: medium; */
+	/* font-size: large; */
+	/* font-size: x-large; */
+	/* font-size: xx-large; */
+
+	/* 表6-2-1 ⑤text-align */
+	/* text-align: left; */
+	/* text-align: right; */
+	/* text-align: center; */
+	/* text-align: justify; */
+
+	/* 表6-2-1 ⑥color */
+	/* color: #fff; */
+	/* color: #000; */
+	/* color: #f00; */
+	/* color: #0f0; */
+	/* color: #00f; */
+	/* color: #ffffff; */
+	/* color: #000000; */
+	/* color: #ff0000; */
+	/* color: #00ff00; */
+	/* color: #0000ff; */
+	/* color: white; */
+	/* color: black; */
+	/* color: red; */
+	/* color: lime; */
+	/* color: blue; */
+	/* color: rgb(255, 255, 0); */
+	/* color: rgb(255, 0, 255); */
+	/* color: rgb(0, 255, 255); */
+	/* color: rgba(255, 0, 0, 0.5); */
+
+	/* 表6-2-2 ①background-color */
+	/* background-color: #ff0; */
+
+	/* 表6-2-2 ②background-image and 表6-2-3 ①〜②*/
+	/* background-image: url(./images/fig.6-2-2_2.png); */
+	/* width: 100%; */
+	/* width: 50%; */
+	/* height: 100px; */
+	/* height: 5rem; */
+
+	/* 表6-2-2 ③background-size */
+	/* background-image: url(./images/fig.6-2-2_2.png); */
+	/* background-size: cover; */
+	/* background-size: contain; */
+
+	/* 表6-2-4 ①margin*/
+	/* background-color: #ff0; */
+	/* margin: 30px; */
+	/* margin: 30px 20px; */
+	/* margin: 30px 20px 10px; */
+	/* margin: 30px 20px 10px 0px; */
+	/* margin-top: 30px; */
+	/* margin-right: 30px; */
+	/* margin-bottom: 30px; */
+	/* margin-left: 30px; */
+
+	/* 表6-2-4 ⑥padding*/
+	/* background-color: #ff0; */
+	/* padding: 30px; */
+	/* padding: 30px 20px; */
+	/* padding: 30px 20px 10px; */
+	/* padding: 30px 20px 10px 0px; */
+
+	/* 表6-2-5 ①border-width*/
+	/* border-style: solid; */
+	/* border-width: 1px; */
+	/* border-width: 1px 3px; */
+	/* border-width: 1px 3px 5px; */
+	/* border-width: 1px 3px 5px 7px; */
+	/* border-width: thin; */
+	/* border-width: medium; */
+	/* border-width: thick; */
+
+	/* 表6-2-5 ②border-style*/
+	/* border-width: 20px; */
+	/* border-style: solid; */
+	/* border-style: double; */
+	/* border-style: dashed; */
+	/* border-style: dotted; */
+	/* border-style: groove; */
+	/* border-style: ridge; */
+	/* border-style: inset; */
+	/* border-style: outset; */
+	/* border-style: none; */
+
+	/* 表6-2-5 ③border-color*/
+	/* border-color: red; */
+	/* border-width: 20px; */
+	/* border-style: solid; */
+	/* border-style: dashed; */
+	/* border-style: groove; */
+}
+
+ul{
+	/* 表6-2-6 ①list-style-type*/
+	/* list-style-type: disc; */
+	/* list-style-type: circle; */
+	/* list-style-type: square; */
+	/* list-style-type: decimal; */
+	/* list-style-type: none; */
+}
+
+/* 表6-2-7 and 表6-2-8 */
+#div_1 {
+	/* background-color: red; */
+	/* width: 150px; */
+}
+#div_2 {
+	/* background-color: blue; */
+	/* width: 150px; */
+}
+#div_3 {
+	/* background-color: yellow; */
+	/* width: 150px; */
+}
+#div_4 {
+	/* background-color: green; */
+	/* width: 150px; */
+}
+#div_5 {
+	/* background-color: pink; */
+	/* width: 150px; */
+}
+.div_flex {
+	/* 表6-2-7 ①display */
+	/* display: flex; */
+	/* background-color: lightgray; */
+	/* height: 300px; */
+
+	/* 表6-2-7 ②flex-direction */
+	/* display: flex; */
+	/* background-color: lightgray; */
+	/* height: 300px; */
+	/* flex-direction: row; */
+	/* flex-direction: row-reverse; */
+	/* flex-direction: column; */
+	/* flex-direction: column-reverse; */
+
+	/* 表6-2-7 ③flex-wrap */
+	/* display: flex; */
+	/* background-color: lightgray; */
+	/* height: 300px; */
+	/* flex-wrap: nowrap; */
+	/* flex-wrap: wrap; */
+	/* flex-wrap: wrap-reverse; */
+
+	/* 表6-2-7 ④justify-content */
+	/* display: flex; */
+	/* background-color: lightgray; */
+	/* height:300px; */
+	/* justify-content: flex-start; */
+	/* justify-content: flex-end; */
+	/* justify-content: center; */
+	/* justify-content: space-between; */
+	/* justify-content: space-around; */
+
+	/* 表6-2-7 ⑤align-items */
+	/* display: flex; */
+	/* background-color: lightgray; */
+	/* height:300px; */
+	/* align-items: stretch; */
+	/* align-items: flex-start; */
+	/* align-items: flex-end; */
+	/* align-items: center; */
+	/* align-items: baseline; */
+
+	/* 表6-2-7 ⑥align-content */
+	/* display: flex; */
+	/* background-color: lightgray; */
+	/* height:300px; */
+	/* flex-wrap: wrap; */
+	/* align-content: stretch; */
+	/* align-content: flex-start; */
+	/* align-content: flex-end; */
+	/* align-content: center; */
+	/* align-content: space-between; */
+	/* align-content: space-around; */
+}
+
+.div_grid {
+	/* 表6-2-8 ①display */
+	/* display: grid; */
+	/* background-color: lightgray; */
+	/* height: 300px; */
+
+	/* 表6-2-8 ②grid-template-columns */
+	/* display: grid; */
+	/* background-color: lightgray; */
+	/* height: 300px; */
+	/* grid-template-columns: 150px 150px; */
+	/* grid-template-columns: 60% 40%; */
+	/* grid-template-columns: 2fr 8fr; */
+
+	/* 表6-2-8 ③grid-template-rows */
+	/* display: grid; */
+	/* background-color: lightgray; */
+	/* height: 300px; */
+	/* grid-template-columns: 150px 150px; */
+	/* grid-template-rows: 30px 50px 100px; */
+	/* grid-template-rows: 70% 15% 15%; */
+	/* grid-template-rows: 1fr 1fr 1fr; */
+
+	/* 表6-2-8 ④grid-gap */
+	/* display: grid; */
+	/* background-color: lightgray; */
+	/* height: 300px; */
+	/* grid-template-columns: 150px 150px; */
+	/* grid-gap: 10px 20px; */
+	/* grid-gap: 10% 20%; */
+}

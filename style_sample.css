@@ -97,7 +97,7 @@ footer{
 
 /* main部分 */
 main{
-	height: 80vh;
+	min-height: 80vh;
 }
 /* 背景の装飾 */
 .background{

@@ -107,10 +107,6 @@ main{
 	background-size: cover;
 	/* 画像の位置を指定します */
 	background-position: center top;
-	/* 背景色を指定します */
-	background-color: rgba(255, 255, 255, 0.5); /* 白色の半透明を背景に追加 */
-	/* 背景画像と背景色をブレンドします */
-	background-blend-mode: lighten;
 }
 .home-content{
 	/* 余白を指定します */
